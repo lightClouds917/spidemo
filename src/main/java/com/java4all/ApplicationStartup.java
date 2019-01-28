@@ -23,6 +23,9 @@ import org.springframework.stereotype.Component;
  * 在启动类的run方法执行完后执行
  * order越小，越先执行
  *
+ * CommandLineRunner:程序启动后，可以做一些自定义处理
+ * ApplicationContextAware：spring容器初始化时，会调用setApplicationContext，注入上下文
+ *
  * @author IT云清
  * @date 2019/1/28 16:12
  */

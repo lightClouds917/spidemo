@@ -4,7 +4,7 @@ package com.java4all.spi;
  * description:
  * 语言处理器
  * @author IT云清
- * @date 2019/1/28 10:40
+ * @date 2019/2/2 22:22
  */
 public interface LanguageHandler {
 

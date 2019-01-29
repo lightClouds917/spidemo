@@ -27,7 +27,7 @@ import org.springframework.stereotype.Component;
  * ApplicationContextAware：spring容器初始化时，会调用setApplicationContext，注入上下文
  *
  * @author IT云清
- * @date 2019/1/28 16:12
+ * @date 2019/2/2 22:22
  */
 @Component
 @Order(1)

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * description:
  * 获取配置文件内容
  * @author IT云清
- * @date 2019/1/28 11:05
+ * @date 2019/2/2 22:22
  */
 @Component
 public class Configuration implements InitializingBean{

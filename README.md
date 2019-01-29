@@ -1,7 +1,8 @@
 # spidemo
 A demo about spi
 ## 1.Java SPI
-Java SPI,全称Java ervice Provider Interface(Java服务提供者接口),是一种动态加载机制。
+Java SPI,全称Java ervice Provider Interface(Java服务提供者接口),是一种动态加载机制,
+一般是面对厂商或者开发插件之类拓展功能提供的。
 在做系统设计时，我们往往会把一些具体服务做出一些抽象接口，在接口中定义基本功能，具体的实现，
 交由实现者去提供（Service Provider，服务提供者），从而提高拓展性，降低耦合性，而接口往往有很多不同的实现方案，
 在面向对象的设计里，一般推荐模块之间基于接口编程，而不是对实现类进行硬编码；

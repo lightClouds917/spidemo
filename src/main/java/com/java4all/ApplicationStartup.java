@@ -2,7 +2,7 @@ package com.java4all;
 
 import com.java4all.config.Configuration;
 import com.java4all.spi.LanguageHandler;
-import com.java4all.spi.address.ChineseLanguageHandler;
+import com.java4all.spi.language.ChineseLanguageHandler;
 import com.java4all.util.SpringBeanUtils;
 import java.util.Objects;
 import java.util.ServiceLoader;
